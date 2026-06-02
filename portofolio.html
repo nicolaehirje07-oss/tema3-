@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portofolio.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="skip">
+            <a href="#main-content" class="skip-link">Skip to main content</a>
+        </div>
+        <header>
+            <h1>My Portofolio</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="data.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="chatbot.html">Chatbot</a></li>
+                <li><a href="card.html">Business Card</a></li>
+                <li><a href="specificity.html">Specificity</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </nav>
+
+        <main id="main-content">
+            
+            <img src="hw3.jpg" alt="Programming" loading="lazy">
+            
+            <section>
+                <h2>Add Project</h2>
+                <form id="projectForm">
+                    <fieldset>
+                        <legend>Add Project</legend>
+
+                        <label for="name">Project Name</label>
+                        <input type="text" id="name">
+                        <span id="nameError" class="error"></span>
+
+                        <label for="description">Description</label>
+                        <textarea id="description"></textarea>
+                        <span id="descriptionError" class="error"></span>
+
+                        <label for="url">Project URL</label>
+                        <input type="url" id="url">
+                        <span id="urlError" class="error"></span>
+
+                        <label for="tech">Technology</label>
+                        <select id="tech">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JavaScript</option>
+                        </select>
+
+                        <label for="date">Completion Date</label>
+                        <input type="date" id="date">
+                        <span id="dateError" class="error"></span>
+
+                        <label for="image">Image URL</label>
+                        <input type="url" id="image">
+                        <span id="imageError" class="error"></span>
+
+                        <button type="submit">Add Project</button>
+                        <button type="reset">Reset</button>
+
+                    </fieldset>
+                </form>
+            </section>
+
+            <section>
+                <div class="table-wrapper">
+                    <table id="projectsTable">
+                        <caption>Projects List</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">URL</th>
+                                <th scope="col">Technology</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 Hirje Nicolae - student</p>
+        </footer>
+
+    </div>
+    <script src="portofolio.js"></script>
+</body>
+
+</html>

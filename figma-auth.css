@@ -1,0 +1,215 @@
+/* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #D4AF37;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 1100px;
+height: 600px;
+left: calc(50% - 1100px/2);
+top: 233px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 500px;
+height: 600px;
+left: 170px;
+top: 233px;
+
+background: #F5D76E;
+border-radius: 20px 0px 0px 20px;
+
+
+/* WELCOME BACK */
+
+position: absolute;
+width: 364px;
+height: 73px;
+left: 260px;
+top: 460px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+
+
+/* Login or register to continue */
+
+position: absolute;
+width: 238px;
+height: 78px;
+left: 289px;
+top: 533px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 32px;
+line-height: 39px;
+
+color: #726100;
+
+
+
+/* Rectangle 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 300px;
+height: 45px;
+left: 706px;
+top: 415px;
+
+background: #FFFFFF;
+border: 1px solid #969696;
+border-radius: 10px;
+
+
+/* Rectangle 5 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 300px;
+height: 45px;
+left: 706px;
+top: 518px;
+
+background: #FFFFFF;
+border: 1px solid #969696;
+border-radius: 10px;
+
+
+/* Email */
+
+position: absolute;
+width: 46px;
+height: 22px;
+left: 713px;
+top: 375px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Password */
+
+position: absolute;
+width: 83px;
+height: 22px;
+left: 713px;
+top: 485px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Component 1 */
+
+position: absolute;
+width: 300px;
+height: 60px;
+left: 817px;
+top: 621px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #D4AF37;
+
+
+/* LOGIN */
+
+position: absolute;
+left: 38%;
+right: 38.33%;
+top: 30%;
+bottom: 30%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 28px;
+
+color: #FFFFFF;
+
+
+
+/* Component 2 */
+
+position: absolute;
+width: 300px;
+height: 60px;
+left: 817px;
+top: 718px;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #D4AF37;
+
+
+/* REGISTER */
+
+position: absolute;
+left: 31.33%;
+right: 31.33%;
+top: 26.67%;
+bottom: 26.67%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height */
+
+color: #FFFFFF;
+

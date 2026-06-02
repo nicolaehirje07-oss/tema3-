@@ -1,0 +1,3 @@
+1. Inline CSS are cea mai mare prioritate.
+2. Internal CSS da override la CSS external.
+3. Specific selectors sunt mai "puternici" decat general selectors.
